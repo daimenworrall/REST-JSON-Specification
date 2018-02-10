@@ -2,6 +2,14 @@
 #### Rev 0.1
 > By Daimen Worrall
 
+## Introduction
+
+The goal with REST+JSON is to create a standard for REST APIs that respond with JSON documents.
+
+In this specification, we will describe various parts of a RESTful API and give guidelines on how they should operate.
+
+All feedback is welcome, create an issue if you have any suggestions or amendments and they will all be considered. 
+
 ## Content Negotiation
 
 ### Client Responsibilities
