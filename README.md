@@ -2,6 +2,18 @@
 #### Rev 0.1
 > By Daimen Worrall
 
+## Table of contents
+
+- [Introduction](#introduction)
+- [Content Negotiation](#content-negotiation)
+- [Document Structure](#document-structure)
+- [Fetching Data](#fetching-data)
+- [Creating Resources](#creating-resources)
+- [Updating Resources](#updating-resources)
+- [Deleting Resources](#deleting-resources)
+- [Errors](#errors)
+- [Meta](#meta)
+
 ## Introduction
 
 The goal with REST+JSON is to create a standard for REST APIs that respond with JSON documents.
