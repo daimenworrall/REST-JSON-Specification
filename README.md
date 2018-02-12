@@ -228,6 +228,8 @@ A server __MUST__ respond with one of the following:
 
 A query __MUST__ not contain an `_id` __but__ the server __MAY__ still create this resource, ignoring the `_id` property and generating a new one.
 
+The server __MUST__ respond with the created documents `_id`.
+
 ### Linked resources
 
 If the resource being created is linked as a child to another resource. It __MUST__ contain a descriptive member with the parents `_id` as its value.
