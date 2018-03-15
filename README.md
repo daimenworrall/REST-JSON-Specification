@@ -273,6 +273,7 @@ A server __MUST__ respond with one of the following:
 - `204` - The data was valid but the server didn't update the resource
 - `400` - Invalid request (ie: the data was invalid)
 - `401` - Unauthorized
+- `404` - Not found
 
 An example update request would look like:
 
@@ -295,6 +296,7 @@ A server __MUST__ respond with one of the following:
 - `200` - The resource was deleted successfully
 - `400` - Invalid request (ie: the `_id` was invalid)
 - `401` - Unauthorized
+- `404` - Not found
 
 An example `DELETE` request would look like:
 
