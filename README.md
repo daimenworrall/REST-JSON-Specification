@@ -120,7 +120,7 @@ A server __MUST__ respond with one of the following:
 - `200` - A successful request
 - `400` - Invalid request (ie: the query was invalid)
 - `401` - Unauthorized
-- `404` - Not Found (If the resource exists but there are 0, the server should return a 200)
+- `404` - Not Found
 
 ### Examples
 
